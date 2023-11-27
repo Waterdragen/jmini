@@ -14,7 +14,6 @@ cmini is a basic discord bot that displays the stats of a particular layout
 <details>
   <summary>. . .</summary>
   
-  ### Hello
   - [ ] ``
   - [ ] `1984`
   - [ ] `8ball`
