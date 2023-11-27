@@ -1,6 +1,6 @@
 # jmini
 Layout analyzer bot [cmini](https://github.com/apsu/cmini) in java  
-cmini is a basic discord bot that displays the stats of a particular layout  
+> cmini is a basic discord bot that displays the stats of a particular layout  
 
 ### How to run
 > [!NOTE]
