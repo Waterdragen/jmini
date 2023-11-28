@@ -1,7 +1,7 @@
 package org.example.cmds;
 
 import java.util.HashMap;
-import org.example.util.Command;
+import org.example.clsutil.Command;
 import reactor.util.annotation.Nullable;
 
 public class CommandTable {
@@ -19,6 +19,7 @@ public class CommandTable {
      */
     private static HashMap<String, Command> initTable() {
         HashMap<String, Command> table = new HashMap<>();
+        table.put("8ball", new eightBall());
         table.put("gh", new github());
         table.put("github", new github());
         return table;
