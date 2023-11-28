@@ -16,7 +16,7 @@ Layout analyzer bot [cmini](https://github.com/apsu/cmini) in java
   
   - [ ] ` `
   - [ ] `1984`
-  - [ ] `8ball`
+  - [x] `8ball`
   - [ ] `add`
   - [ ] `admin`
   - [ ] `alt`
