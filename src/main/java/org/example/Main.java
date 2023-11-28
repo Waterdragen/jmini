@@ -13,7 +13,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import org.example.cmds.CommandTable;
-import org.example.util.Command;
+import org.example.clsutil.Command;
 
 public class Main {
     public static final String[] TRIGGERS = {"!amini", "!bmini", "!cmini", "!dvormini", "!cnini"};
@@ -28,6 +28,9 @@ public class Main {
 
     public static String handleCommand(String command, String arguments) throws Throwable {
         command = command.toLowerCase();
+        if (command.equals(""))
+            return "Try `!cmini help`";
+
         Command commandClass = CommandTable.getCommandClass(command);
         if (commandClass == null)
             return "Error: " + command + " is not an available command";
