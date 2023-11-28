@@ -35,9 +35,9 @@ Layout analyzer bot [cmini](https://github.com/apsu/cmini) in java
   - [ ] `flip`
   - [ ] `freq`
   - [ ] `gen`
-  - [ ] `github`
+  - [x] `github`
   - [x] `gh`
-  - [x] ~`guess`~
+  - [ ] ~`guess`~
   - [ ] `help`
   - [ ] `homerow`
   - [ ] `like`
