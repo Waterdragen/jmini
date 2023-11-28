@@ -1,6 +1,7 @@
 package org.example.util;
 
 import org.apache.commons.text.similarity.JaroWinklerSimilarity;
+import reactor.util.annotation.Nullable;
 
 public class Similarity {
     private static final JaroWinklerSimilarity MATCHER = new JaroWinklerSimilarity();
@@ -18,7 +19,6 @@ public class Similarity {
                 closestDistance = currentDistance;
             }
         }
-        assert bestMatch != null;
         return bestMatch;
     }
 }
