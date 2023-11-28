@@ -3,13 +3,14 @@ package org.example.util;
 import java.io.IOException;
 import java.util.HashMap;
 
+import org.example.clsutil.Corpus;
+
 public class Corpora {
     private static final HashMap<String, Corpus> LOADED = new HashMap<>();
     private static final String[] NGRAMS = {"monograms", "bigrams", "trigrams"};
     private static final String CORPUS = "mt-quotes";
 
     private static class PrefCorpus extends HashMap<String, String> {}
-    public static class Corpus extends HashMap<String, Integer> {}
 
     public static Corpus loadCorpus(String path) throws IOException {
         if (LOADED.containsKey(path))

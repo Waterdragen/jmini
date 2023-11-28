@@ -1,6 +1,6 @@
 package org.example.cmds;
 
-import org.example.util.Command;
+import org.example.clsutil.Command;
 
 public class github extends Command {
     @Override
